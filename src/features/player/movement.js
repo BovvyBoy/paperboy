@@ -18,8 +18,10 @@ export default function handleMovement(player) {
 		}
 	}
 
-	function opserveBoundaries(oldPos, newPos) {
-		return newPos[0] >= 0 && newPos[0] <= MAP_WIDTH && (newPos[1] >= 0 && newPos[1] <= MAP_HEIGHT)
+	function observeBoundaries(oldPos, newPos) {
+		return newPos[0] >= 0 &&
+		newPos[0] <= MAP_WIDTH - SPRITE_SIZE &&
+		(newPos[1] >= 0 && newPos[1] <= MAP_HEIGHT - SPRITE_SIZE)
 			? newPos
 			: oldPos;
 	}
@@ -29,7 +31,7 @@ export default function handleMovement(player) {
 		store.dispatch({
 			type: 'MOVE_PLAYER',
 			payload: {
-				position: opserveBoundaries(oldPos, getNewPosition(direction))
+				position: observeBoundaries(oldPos, getNewPosition(direction))
 			}
 		});
 	}

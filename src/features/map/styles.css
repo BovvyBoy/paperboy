@@ -1,0 +1,19 @@
+.tile {
+	display: inline-flex;
+}
+
+.rock1 {
+	background-image: url('/tiles/rock1.png');
+}
+
+.tree1 {
+	background-image: url('/tiles/tree1.png');
+}
+
+.chest {
+	background-image: url('/tiles/chest.png');
+}
+
+.grass {
+	background-image: url('/tiles/grass.png');
+}
