@@ -1,6 +1,7 @@
 .tile {
 	display: inline-flex;
-	background-image: url('/tiles/grass.png');
+	/* background-image: url('/tiles/grass.png'); */
+	background-color: darkgreen;
 }
 
 .rock1 {
@@ -16,5 +17,6 @@
 }
 
 .grass {
-	background-image: url('/tiles/grass.png');
+	/* background-image: url('/tiles/grass.png'); */
+	background-color: darkgreen;
 }
