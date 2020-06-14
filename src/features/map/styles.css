@@ -1,22 +1,41 @@
 .tile {
 	display: inline-flex;
 	/* background-image: url('/tiles/grass.png'); */
-	background-color: darkgreen;
+	background-color: #40803c;
 }
 
 .rock1 {
-	background-image: url('/tiles/rock1.png');
+	background-image: url('/tiles/Rock/rock1.png');
 }
 
 .tree1 {
-	background-image: url('/tiles/tree1.png');
+	background-image: url('/tiles/Trees/green-tree-big.png');
+}
+
+.path-hor {
+	background-image: url('/tiles/Paths/brown-path-hori.png');
+}
+
+.path-ver {
+	background-image: url('/tiles/Paths/brown-path-vert.png');
+}
+
+.tree2 {
+	background-image: url('/tiles/Trees/green-tree-thin.png');
 }
 
 .chest {
-	background-image: url('/tiles/chest.png');
+	background-image: url('/tiles/Chest/chest.png');
 }
 
-.grass {
-	/* background-image: url('/tiles/grass.png'); */
-	background-color: darkgreen;
+.grass1 {
+	background-image: url('/tiles/Grass/grass1.png');
+}
+
+.grass2 {
+	background-image: url('/tiles/Grass/grass2.png');
+}
+
+.grass3 {
+	background-image: url('/tiles/Grass/grass3.png');
 }

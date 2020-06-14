@@ -7,9 +7,17 @@ import './styles.css';
 function getTileSprite(type) {
 	switch (type) {
 		case 0:
-			return 'grass';
+			return 'grass1';
+		case 1:
+			return 'grass2';
+		case 2:
+			return 'grass3';
+		case 3:
+			return 'path-hor';
+		case 4:
+			return 'path-ver';
 		case 5:
-			return 'rock1';
+			return 'tree2';
 		case 6:
 			return 'tree1';
 		case 7:
@@ -47,7 +55,7 @@ function Map(props) {
 				top: '0px',
 				left: '0px',
 				width: '800px',
-				height: '400px',
+				height: '800px',
 				border: '1px solid white'
 			}}
 		>
