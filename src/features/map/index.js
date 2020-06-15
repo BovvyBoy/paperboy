@@ -11,7 +11,7 @@ function getTileSprite(type) {
 		case 1:
 			return 'grass2';
 		case 2:
-			return 'grass3';
+			return 'road';
 		case 3:
 			return 'path-hor';
 		case 4:
@@ -22,6 +22,18 @@ function getTileSprite(type) {
 			return 'tree1';
 		case 7:
 			return 'chest';
+		case 8:
+			return 'red-house-bl';
+		case 9:
+			return 'red-house-br';
+		case 10:
+			return 'red-house-tr';
+		case 11:
+			return 'red-house-tl';
+		case 12:
+			return 'orange-shop-left';
+		case 13:
+			return 'orange-shop-right';
 		default:
 			return 'grass';
 	}

@@ -39,3 +39,31 @@
 .grass3 {
 	background-image: url('/tiles/Grass/grass3.png');
 }
+
+.red-house-bl {
+	background-image: url('/tiles/RedHouse/whole/RedHouseP1.png');
+}
+
+.red-house-br {
+	background-image: url('/tiles/RedHouse/whole/RedHouseP2.png');
+}
+
+.red-house-tr {
+	background-image: url('/tiles/RedHouse/whole/RedHouseP3.png');
+}
+
+.red-house-tl {
+	background-image: url('/tiles/RedHouse/whole/RedHouseP4.png');
+}
+
+.orange-shop-left {
+	background-image: url('/tiles/OrangeShop/orange-shop-left.png');
+}
+
+.orange-shop-right {
+	background-image: url('/tiles/OrangeShop/orange-shop-right.png');
+}
+
+.road {
+	background-image: url('/tiles/Roads/single-grey-road-fulltile.png');
+}
